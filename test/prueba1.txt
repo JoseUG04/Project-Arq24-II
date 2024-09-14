@@ -1,3 +1,0 @@
-probando la combinación de un branch en el origin main con 
-esta información externa, si el txt aparece, entonces está 
-todo en orden
