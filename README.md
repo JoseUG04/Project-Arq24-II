@@ -2,7 +2,13 @@
 
 	VERSION 1.0 (Started)
 	Project: Spa Web Page "SPA UTP"
-	
+
+## Participants:
+        -carlos23elv->Llallacachi Ventura Carlos
+        -ErickPampa->Pampa Cueva Erick Arian
+        -hector1818 & Hector989815->Huamani Paxi Hector Zenon
+        -JoseUG04->Ugarte Condori Jose Carlos
+        
 ## Includes:
 	-CSS information and files for styling views
 	-HTML files for views
@@ -17,8 +23,13 @@
 	-Xampp
 ## Instructions
 
-	-(No required at this version)
-	-The files can be opened with any browser or
-	-IDE of your preference
-
+	-Ubications:
+		Views of the project-> html_files
+		Requirements info-> Docs
+		Style design ->css
+		data base  ->data_base
+		images source ->img
+	    -The files can be opened with any browser or
+	    -IDE of your preference
 	
+
