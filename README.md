@@ -3,7 +3,12 @@
 	VERSION 1.0 (Started)
 	Project: Spa Web Page "SPA UTP"
 
-
+## Participants:
+        -carlos23elv->Llallacachi Ventura Carlos
+        -ErickPampa->Pampa Cueva Erick Arian
+        -hector1818 & Hector989815->Huamani Paxi Hector Zenon
+        -JoseUG04->Ugarte Condori Jose Carlos
+        
 ## Includes:
 	-CSS information and files for styling views
 	-HTML files for views
@@ -27,8 +32,4 @@
 	    -The files can be opened with any browser or
 	    -IDE of your preference
 	
-## Participants:
-        -carlos23elv->Llallacachi Ventura Carlos
-        -ErickPampa->Pampa Cueva Erick Arian
-        -hector1818 & Hector989815->Huamani Paxi Hector Zenon
-        -JoseUG04->Ugarte Condori Jose Carlos
+
