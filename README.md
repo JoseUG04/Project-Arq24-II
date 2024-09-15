@@ -2,7 +2,8 @@
 
 	VERSION 1.0 (Started)
 	Project: Spa Web Page "SPA UTP"
-##Participants:
+
+## Participants:
 	-carlos23elv->Llallacachi Ventura Carlos
 	-ErickPampa->Pampa Cueva Erick Arian
 	-hector1818 & Hector989815->Huamani Paxi Hector Zenon
