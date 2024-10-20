@@ -2,10 +2,13 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
+
 -- Servidor: 127.0.0.1
 -- Tiempo de generación: 20-10-2024 a las 03:32:09
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
+
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +21,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `spautp1`
+-- Base de datos: `spautp`
 --
 
 -- --------------------------------------------------------
@@ -32,6 +35,7 @@ CREATE TABLE `especialidad` (
   `nomespecial` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+
 --
 -- Volcado de datos para la tabla `especialidad`
 --
@@ -42,6 +46,7 @@ INSERT INTO `especialidad` (`idespecialidad`, `nomespecial`) VALUES
 (3, 'Terapeuta'),
 (4, 'Fisioterapeuta'),
 (5, 'cas');
+
 
 -- --------------------------------------------------------
 
@@ -57,6 +62,7 @@ CREATE TABLE `horarios` (
   `dia` varchar(20) NOT NULL,
   `estadoHorario` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 
 --
 -- Volcado de datos para la tabla `horarios`
@@ -78,6 +84,7 @@ CREATE TABLE `insumos` (
   `nombreinsumo` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+
 --
 -- Volcado de datos para la tabla `insumos`
 --
@@ -85,6 +92,7 @@ CREATE TABLE `insumos` (
 INSERT INTO `insumos` (`idinsumo`, `nombreinsumo`) VALUES
 (1, 'Shampoo'),
 (2, 'Acondicionador');
+
 
 -- --------------------------------------------------------
 
@@ -111,6 +119,7 @@ CREATE TABLE `persona` (
   `distrito` varchar(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+
 --
 -- Volcado de datos para la tabla `persona`
 --
@@ -121,8 +130,8 @@ INSERT INTO `persona` (`codigo`, `nombres`, `apelpat`, `apelmat`, `dni`, `correo
 (230005, 'Erick', 'Pampa', 'Paxi', '70707070', 'ErickPampa@gmail.com', '+51992386138', '123456', NULL, 'tarde', 'lunes', 1, 1, 2, 'PSJ. Cerrito BelÃ©n mz. K lt. 13', 'Mariano Melgar'),
 (230006, 'Jose', 'Hugo', 'Paxi', '70707070', 'josehugo@gmail.com', '+51992386138', '123456', NULL, 'tarde', 'lunes', 1, 1, 2, 'PSJ. Cerrito BelÃ©n mz. K lt. 13', 'Mariano Melgar');
 
--- --------------------------------------------------------
 
+-- --------------------------------------------------------
 --
 -- Estructura de tabla para la tabla `reserva`
 --
@@ -158,6 +167,7 @@ CREATE TABLE `rol` (
   `nomrol` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+
 --
 -- Volcado de datos para la tabla `rol`
 --
@@ -167,6 +177,7 @@ INSERT INTO `rol` (`idrol`, `nomrol`) VALUES
 (2, 'Encargado'),
 (3, 'Técnico'),
 (4, 'Cliente');
+
 
 -- --------------------------------------------------------
 
@@ -185,6 +196,7 @@ CREATE TABLE `servicio` (
   `estadoserv` int(11) NOT NULL,
   `duracion` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 
 --
 -- Volcado de datos para la tabla `servicio`
@@ -206,6 +218,7 @@ CREATE TABLE `tipo` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+
 -- Volcado de datos para la tabla `tipo`
 --
 
@@ -287,7 +300,9 @@ ALTER TABLE `tipo`
 -- AUTO_INCREMENT de la tabla `especialidad`
 --
 ALTER TABLE `especialidad`
+
   MODIFY `idespecialidad` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 
 --
 -- AUTO_INCREMENT de la tabla `insumos`
@@ -295,11 +310,14 @@ ALTER TABLE `especialidad`
 ALTER TABLE `insumos`
   MODIFY `idinsumo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
+
 --
 -- AUTO_INCREMENT de la tabla `persona`
 --
 ALTER TABLE `persona`
+
   MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=230007;
+
 
 --
 -- AUTO_INCREMENT de la tabla `reserva`
@@ -317,19 +335,25 @@ ALTER TABLE `reservaservicio`
 -- AUTO_INCREMENT de la tabla `rol`
 --
 ALTER TABLE `rol`
+
   MODIFY `idrol` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
 
 --
 -- AUTO_INCREMENT de la tabla `servicio`
 --
 ALTER TABLE `servicio`
+
   MODIFY `idservicio` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 
 --
 -- AUTO_INCREMENT de la tabla `tipo`
 --
 ALTER TABLE `tipo`
+
   MODIFY `idtipo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
 
 --
 -- Restricciones para tablas volcadas
