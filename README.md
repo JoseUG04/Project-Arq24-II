@@ -33,5 +33,15 @@
 
 	-Now all documments and graphics about the architecture is in
 	-Documentation/
+
+##Errors and future aditions
+	-Per now, the database doesn't work, requires a update
+	-Spring is working without thymeleaf, there's concurrent bugs
+		when it try to run
+	-In future, the html documments will be updated to thymeleaf requires
+	-Future changes will be presented like 2.1 - 2.9 versions
+	-Soon ver 3.0 present a better project with more functions and additions
+		wait for it!.
+						-The spa_utp team-
 	
 
