@@ -34,7 +34,8 @@
 	-Now all documments and graphics about the architecture is in
 	-Documentation/
 
-##Errors and future aditions
+
+## Errors and future aditions:
 	-Per now, the database doesn't work, requires a update
 	-Spring is working without thymeleaf, there's concurrent bugs
 		when it try to run
@@ -44,4 +45,4 @@
 		wait for it!.
 						-The spa_utp team-
 	
-
+##
