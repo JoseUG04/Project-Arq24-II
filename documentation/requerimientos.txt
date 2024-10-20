@@ -1,0 +1,15 @@
+Requerimientos funcionales 
+- registro cliente
+-resgistro tecnico
+-registro de reserva
+-registro de servicio
+-reportes ventas
+-confirmacion de servicio
+-administracion de disponibilidad
+Requerimientos no funcionales 
+- seguridad
+-facilidad de uso
+- rendimiento
+-portabilidad
+-integridad de datos 
+-disponilidad
