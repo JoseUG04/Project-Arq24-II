@@ -4,6 +4,7 @@ import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.GetMapping;
 
 
+
 @Controller
 public class homeControler {
 	
@@ -11,5 +12,6 @@ public class homeControler {
 	public String home() {
 		return "redirect:/indexInicio.html";
 	}
-	
+        
+       
 }
